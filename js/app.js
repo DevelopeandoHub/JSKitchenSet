@@ -17,9 +17,9 @@ window.onload = () => {
                 mostrar(videoTacitaHumeando);
                 reproducir(videoTacitaHumeando, 'loopear');
                 resetear(videoTacita);
+                estadoTacita = 'llena';
             }
 
-            estadoTacita = 'llena';
         }
     }
 
@@ -41,8 +41,8 @@ window.onload = () => {
                 mostrar(videoTacita);
                 ocultar(videoTacitaTomando);
                 resetear(videoTacitaTomando);
+                estadoTacita = 'vacia';
             }
-            estadoTacita = 'vacia';
         }
     }
 }
